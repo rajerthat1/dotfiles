@@ -1,0 +1,16 @@
+command = exec fish
+theme = Jellybeans
+font-family = Mononoki Nerd Font
+font-size = 16
+font-style = Bold
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = false
+term = xterm-256color
+unfocused-split-opacity = 1.0
+keybind = ctrl+h=goto_split:left
+keybind = ctrl+j=goto_split:bottom
+keybind = ctrl+k=goto_split:top
+keybind = ctrl+l=goto_split:right
+keybind = super+ctrl+h=previous_tab
+keybind = super+ctrl+l=next_tab

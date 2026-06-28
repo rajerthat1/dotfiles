@@ -1,0 +1,71 @@
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-1": null,
+      "ctrl-2": null,
+      "ctrl-3": null,
+      "ctrl-4": null,
+      "ctrl-5": null,
+      "ctrl-6": null,
+      "ctrl-7": null,
+      "ctrl-8": null,
+      "ctrl-9": null,
+    },
+  },
+  {
+    "bindings": {
+      "ctrl-h": "workspace::ToggleLeftDock",
+      "ctrl-l": "workspace::ToggleRightDock",
+      "ctrl-j": "workspace::ToggleBottomDock",
+      "ctrl-k": "workspace::ToggleAllDocks",
+
+      "ctrl-1": "project_panel::ToggleFocus",
+      "ctrl-2": "git_panel::ToggleFocus",
+      "ctrl-3": "outline_panel::ToggleFocus",
+      "ctrl-4": "collab_panel::ToggleFocus",
+      "ctrl-5": "project_search::ToggleFocus",
+      // "ctrl-6": "diagnostics::Deploy",
+      "ctrl-7": "terminal_panel::ToggleFocus",
+      "ctrl-8": "debug_panel::ToggleFocus",
+      "ctrl-9": "agent::ToggleFocus",
+      // "ctrl-0": "",
+    },
+  },
+  {
+    "context": "(vim_mode == helix_normal || vim_mode == helix_select) && !menu",
+    "unbind": {
+      "shift-l": "pane::ActivateNextItem",
+    },
+  },
+  {
+    "context": "VimControl && !menu",
+    "unbind": {
+      "shift-l": "vim::WindowBottom",
+    },
+  },
+  {
+    "context": "(VimControl && !menu) || (!Editor && !Terminal)",
+    "bindings": {
+      "shift-h": "vim::GoToPreviousTab",
+    },
+  },
+  {
+    "context": "(VimControl && !menu) || (!Editor && !Terminal)",
+    "unbind": {
+      "g shift-t": "vim::GoToPreviousTab",
+    },
+  },
+  {
+    "context": "(VimControl && !menu) || (!Editor && !Terminal)",
+    "bindings": {
+      "shift-l": "vim::GoToTab",
+    },
+  },
+  {
+    "context": "(VimControl && !menu) || (!Editor && !Terminal)",
+    "unbind": {
+      "g t": "vim::GoToTab",
+    },
+  },
+]
