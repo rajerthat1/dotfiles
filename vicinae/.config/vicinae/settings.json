@@ -56,12 +56,12 @@
          }
       },
       "clipboard": {
-         "enabled": false,
+         "enabled": true,
          "preferences": {
             "encryption": false,
             "eraseOnStartup": false,
             "ignorePasswords": true,
-            "monitoring": false
+            "monitoring": true
          }
       },
       "core": {

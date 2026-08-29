@@ -24,3 +24,6 @@ set -g fish_cursor_insert block
 alias l=leetcode
 alias o=opencode
 alias c=commandcode
+alias h=hermes
+alias oc=openclaw
+alias bw="flatpak run --command=bw com.bitwarden.desktop"

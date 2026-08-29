@@ -26,7 +26,7 @@ vim.schedule(function()
   vim.opt.undofile = true
   -- vim.opt.cursorline = false
   vim.opt.clipboard = "unnamedplus"
-  vim.opt.guifont = "Mononoki Nerd Font:h16"
+  vim.opt.guifont = "Agave:h16"
   vim.opt.foldlevel = 99
   vim.opt.foldlevelstart = 99
   vim.opt.foldenable = true

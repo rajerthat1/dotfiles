@@ -39,4 +39,4 @@ SETUVAR fish_pager_color_selected_background:\x2dr
 SETUVAR fish_pager_color_selected_completion:\x1d
 SETUVAR fish_pager_color_selected_description:\x1d
 SETUVAR fish_pager_color_selected_prefix:\x1d
-SETUVAR --export fish_user_paths:/home/raj/\x2enpm\x2dglobal/bin\x1e/home/raj/\x2ecargo/bin\x1e/home/raj/\x2elocal/share/bob/stable/bin\x1e/home/raj/\x2elocal/share/bob/nightly/bin\x1e/home/raj/\x2enix\x2dprofile/bin\x1e/home/raj/\x2elocal/state/nix/profile/bin
+SETUVAR --export fish_user_paths:/home/raj/\x2elocal/share/bob/nvim\x2dbin\x1e/home/raj/\x2enpm\x2dglobal/bin\x1e/home/raj/\x2ecargo/bin\x1e/home/raj/\x2elocal/share/bob/stable/bin\x1e/home/raj/\x2elocal/share/bob/nightly/bin\x1e/home/raj/\x2enix\x2dprofile/bin\x1e/home/raj/\x2elocal/state/nix/profile/bin
