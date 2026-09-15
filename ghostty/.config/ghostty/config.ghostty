@@ -1,6 +1,6 @@
 command = exec fish
 theme = Jellybeans
-font-family = Agave
+font-family = Mononoki Nerd Font
 font-size = 18
 font-style = Medium
 cursor-style = block

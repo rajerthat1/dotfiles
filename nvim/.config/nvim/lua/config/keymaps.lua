@@ -1,6 +1,5 @@
 vim.keymap.set("n", "<leader>l", ":Lazy<CR>", { desc = "Lazy" })
 vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, { desc = "LSP Rename" })
-vim.keymap.set("n", "<leader>va", "ggVG", { desc = "Visualize All" })
 
 vim.keymap.set("n", "<leader>w", function()
   local ok, conform = pcall(require, "conform")

@@ -21,9 +21,6 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 zoxide init fish | source
 set -g fish_cursor_default block
 set -g fish_cursor_insert block
-alias l=leetcode
 alias o=opencode
-alias c=commandcode
 alias h=hermes
-alias oc=openclaw
 alias bw="flatpak run --command=bw com.bitwarden.desktop"
