@@ -42,7 +42,7 @@ set mouse=a
 set ignorecase smartcase
 set scrolloff=3
 
-set guifont=MonoLisa:h16
+set guifont=Agave:h16
 set gcr=a:blinkon0
 
 let mapleader = " "

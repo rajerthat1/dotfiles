@@ -24,3 +24,7 @@ set -g fish_cursor_insert block
 alias o=opencode
 alias h=hermes
 alias bw="flatpak run --command=bw com.bitwarden.desktop"
+
+
+# Added by Antigravity CLI installer
+set -gx PATH "/home/raj/.local/bin" $PATH

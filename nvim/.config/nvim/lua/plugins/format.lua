@@ -16,6 +16,8 @@ return {
         lua = { "stylua" },
         cpp = { "clang-format" },
         c = { "clang-format" },
+        verilog = { "verible" },
+        systemverilog = { "verible" },
         rust = { "rustfmt" },
         dart = { "dart_format" },
         asm = { "asmfmt" },
